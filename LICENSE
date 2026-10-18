@@ -660,8 +660,8 @@ context, including but not limited to use on production systems, systems
 connected to sensitive networks, or systems used without proper
 authorization. See README.md for full usage guidance.
 
-"Gravity" and "Malware Planet" are trademarks of Neeraj Rawat / Malware
-Planet. This license grants rights to the software's source code; it does
-not grant any right to use the "Gravity" or "Malware Planet" names, logos,
-or branding on modified or redistributed versions. Forks must use a
-different name and branding.
+"Malware Planet" is a registered trademark of Neeraj Rawat / Malware
+Planet. "Gravity" is the product name used for this project under that
+brand. This license grants rights to the software's source code; it does
+not grant any right to use the "Malware Planet" name, logo, or branding
+on modified or redistributed versions. Forks must use different branding.

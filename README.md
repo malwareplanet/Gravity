@@ -85,7 +85,7 @@ Each tool is sourced in this order, first success wins: **winget → latest GitH
 
 - **Tamper Protection** can't be scripted off — manual toggle only (see above)
 - **Regshot** stays manual-only — no scriptable source exists upstream
-- A couple of tools (e.g. CFF Explorer, Hex Workshop-class installers) install correctly but don't always get an automatic desktop shortcut, since their installers place the real app outside the tools folder with no reliable way to locate it back. The tools folder itself (printed at the end of every run) always has the real files regardless
+- **CFF Explorer** downloads NTCore's full ExplorerSuite installer, which bundles several tools together and needs to be run once to install — it doesn't get an automatic desktop shortcut for this reason, since the installer places the real apps outside the tools folder with no reliable way to locate them back afterward. The downloaded installer itself is always in the tools folder (printed at the end of every run) ready to run
 
 ## Troubleshooting
 
@@ -112,7 +112,7 @@ Compare the output against the SHA256 hash published in the corresponding [GitHu
 
 GNU GPL v3.0 — see [LICENSE](LICENSE). You're free to use, modify, and redistribute this, including commercially — the one condition is that anyone who distributes a modified version must also release their changes under GPL v3, so improvements stay open for everyone.
 
-"Gravity" and "Malware Planet" are trademarks of Neeraj Rawat / Malware Planet. The license covers the code; it does not grant rights to the name or branding — forks must use a different name.
+"Malware Planet" is a registered trademark of Neeraj Rawat / Malware Planet. "Gravity" is the product name used under that brand. The license covers the code; it does not grant rights to the Malware Planet name or branding — forks must use different branding.
 
 ## Found a security issue?
 
